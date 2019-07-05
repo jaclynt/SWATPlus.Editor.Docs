@@ -18,7 +18,7 @@ Click create new record to add an item to the table. Edit multiple records allow
 
 In the search box, start typing the name of the object you want to view. Matching options will appear below the text box. Click the one you want, then click the search icon button to the right.
 
-The import/export data button allows you to quickly access your data in CSV \(comma-separated values spreadsheet\) format, in most cases. We recommend exporting your data \(or empty table is okay\) first to get a template with the column names. You may then modify the file and import it back into the editor. 
+The import/export data button allows you to quickly access your data in CSV \(comma-separated values spreadsheet\) format, in most cases. We recommend exporting your data \(or empty table is okay\) first to get a template with the column names. You may then modify the file and import it back into the editor.
 
 ### Tables
 

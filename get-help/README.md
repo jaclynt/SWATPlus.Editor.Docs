@@ -23,5 +23,3 @@ For questions and discussion related to the model itself, not the editor or GIS 
 
 For SWAT+ Editor bugs or issues, report to the user groups or the [Bitbucket issue tracker](https://bitbucket.org/swatplus/swatplus.editor/issues?status=new&status=open).
 
-
-

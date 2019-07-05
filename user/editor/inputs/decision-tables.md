@@ -93,7 +93,7 @@ The following is an example of a decision table in the lum.dtl input file. It is
 
 ![](../../../.gitbook/assets/d-table-example.png)
 
-In the above table, there are 6 conditions, 4 alternatives and 3 actions. 
+In the above table, there are 6 conditions, 4 alternatives and 3 actions.
 
 ### Description of the conditions
 
@@ -104,9 +104,9 @@ In the above table, there are 6 conditions, 4 alternatives and 3 actions.
 5. year\_rot – needed to identify the current year of rotation.  In this example, corn is grown in year 1.
 6. days\_plant – days since last plant \(200\) to ensure harvest occurs before next crop is planted.
 
-### Description of the alternatives  
+### Description of the alternatives
 
-If all of the conditions for each alternative are met, outcomes are checked for ‘y’ to take action.  Alternatives with dash \(‘-‘\) are not checked.
+If all of the conditions for each alternative are met, outcomes are checked for ‘y’ to take action. Alternatives with dash \(‘-‘\) are not checked.
 
 1. plant corn based on heat units: if soil water &lt; 1.50\*fc and  if phubase0 &gt; 0.15\*phu\_mat and if year\_rot = 1  then check outcomes for ‘y’ and if ‘y’, take that action \(plant\)
 2. Harvest corn based on crop accumulated heat units: if soil\_water &lt; 1.50\*fc and if phu\_plant &gt; 1.15\*phu\_mat and if year\_rot = 1 and then check outcomes for ‘y’ and if ‘y’, take that action \(plant\)
