@@ -36,7 +36,7 @@ npm run dev
 Open a second command prompt and run
 
 ```text
-electron .
+npm run electron
 ```
 
 ### Build the Source Code
@@ -47,10 +47,8 @@ First, use [PyInstaller](https://www.pyinstaller.org/) \(included in the Python 
 pyinstaller_builds
 ```
 
-The configurations for PyInstaller are in the swatplus\_api.spec and swatplus\_rest\_api.spec files. Modify these if compiling for Linux.
-
 {% hint style="info" %}
-Note: The Python will create 32 or 64-bit executables depending on the version of Python you have installed.
+Note: PyInstaller will create 32 or 64-bit executables depending on the version of Python you have installed.
 {% endhint %}
 
 Next, build the Vue.js code. Open a command prompt and run:
