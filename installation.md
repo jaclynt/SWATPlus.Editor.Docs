@@ -20,8 +20,6 @@ Includes SWAT+ rev. 59, QSWAT+ 1.0.0, SWAT+ Editor 1.1.1, and SWAT+ databases
 
 Upon opening the installer, you will be presented with a screen asking which components you would like to install. The soils and weather generator databases will be downloaded in the next screen if checked.
 
-![](.gitbook/assets/tools-installer-1.1.0%20%282%29.PNG)
-
 If QSWAT+ and SWAT+ Editor are selected, their individual installers will open next. All components will be installed under the directory `C:\SWAT\SWATPlus`. If your system requires a different installation path, please contact us. 
 
 ## SWAT+ Model \(Command Line Executable\)
