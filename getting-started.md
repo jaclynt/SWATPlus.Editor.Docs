@@ -9,7 +9,7 @@ description: >-
 ## What you'll need
 
 {% hint style="info" %}
- Make sure you have downloaded and installed QSWAT+, SWAT+ wgn and soils databases, and SWAT+ Editor as described in the installation section linked below.
+Make sure you have downloaded and installed QSWAT+, SWAT+ wgn and soils databases, and SWAT+ Editor as described in the installation section linked below.
 {% endhint %}
 
 {% page-ref page="installation.md" %}

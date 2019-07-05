@@ -10,53 +10,49 @@ Configure the number or years to run the simulation and time step. If you have o
 
 ### time\_sim
 
+| Field | Type | Description |
+| :--- | :--- | :--- |
+
+
+| id | int | Auto-assigned identifier |
+| :--- | :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Field</th>
-      <th style="text-align:left">Type</th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">id</td>
-      <td style="text-align:left">int</td>
-      <td style="text-align:left">Auto-assigned identifier</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">day_start</td>
-      <td style="text-align:left">int</td>
-      <td style="text-align:left">
+      <th style="text-align:left">day_start</th>
+      <th style="text-align:left">int</th>
+      <th style="text-align:left">
         <p>Beginning Julian day of simulation</p>
         <p>If zero, the model starts the simulation on January 1</p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table>| yrc\_start | int | Beginning year of simulation \(e.g., 1980\) |
+| :--- | :--- | :--- |
+
+
+<table>
+  <thead>
     <tr>
-      <td style="text-align:left">yrc_start</td>
-      <td style="text-align:left">int</td>
-      <td style="text-align:left">Beginning year of simulation (e.g., 1980)</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">day_end</td>
-      <td style="text-align:left">int</td>
-      <td style="text-align:left">
+      <th style="text-align:left">day_end</th>
+      <th style="text-align:left">int</th>
+      <th style="text-align:left">
         <p>Ending Julian day of simulation</p>
         <p>If zero, the model ends the simulation on December 31</p>
-      </td>
+      </th>
     </tr>
-    <tr>
-      <td style="text-align:left">yrc_end</td>
-      <td style="text-align:left">int</td>
-      <td style="text-align:left">Ending year of simulation (e.g., 1980)</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">step</td>
-      <td style="text-align:left">int</td>
-      <td style="text-align:left">Time steps in a day for rainfall, runoff and routing</td>
-    </tr>
-  </tbody>
-</table>## Print
+  </thead>
+  <tbody></tbody>
+</table>| yrc\_end | int | Ending year of simulation \(e.g., 1980\) |
+| :--- | :--- | :--- |
+
+
+| step | int | Time steps in a day for rainfall, runoff and routing |
+| :--- | :--- | :--- |
+
 
 Configure the output files to print.
 
@@ -69,8 +65,8 @@ Configure the output files to print.
 
 | Field | Type | Description |
 | :--- | :--- | :--- |
-| id | int |  Auto-assigned identifier |
-| nyskip | int |  Number of years to _not_ print output |
+| id | int | Auto-assigned identifier |
+| nyskip | int | Number of years to _not_ print output |
 | day\_start | int | Beginning Julian day of simulation to start printing output files for daily printing only |
 | yrc\_start | int | Beginning year of simulation to start printing output files |
 | day\_end | int | Ending Julian day of simulation to stop printing output files for daily printing only |
@@ -90,7 +86,7 @@ Each row in print\_prt\_object represents an output file that can be print daily
 
 | Field | Type | Description |
 | :--- | :--- | :--- |
-| id | int |  Auto-assigned identifier |
+| id | int | Auto-assigned identifier |
 | print\_prt\_id | int | ID of print\_prt row |
 | name | text | Name of print object |
 | daily | bool | Print daily output |
@@ -107,10 +103,10 @@ Daily printing of all files could cause very large output \(exceeding hard drive
 | Object Name | Description |
 | :--- | :--- |
 | basin\_wb | Water balance basin output variables |
-| basin\_nb | Nutrient balance basin output variables  |
+| basin\_nb | Nutrient balance basin output variables |
 | basin\_ls | Losses basin output variables |
 | basin\_pw | Plant weather basin output variables |
-| basin\_aqu | Aquifer basin output variables  |
+| basin\_aqu | Aquifer basin output variables |
 | basin\_res | Reservoir basin output file variables |
 | basin\_cha | Channel basin output file variables |
 | basin\_sd\_cha | CHAN DEG basin output file variables |

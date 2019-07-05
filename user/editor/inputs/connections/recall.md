@@ -56,13 +56,13 @@ Each record in recall\_rec will have a data file named {name}.rec. All of this d
 | t\_step | int | Timestep |  |
 | flo | real | Volume of water | m^3 |
 | sed | real | Sediment | metric ton |
-| ptl\_n | real | Organic nitrogen | kg N  |
+| ptl\_n | real | Organic nitrogen | kg N |
 | ptl\_p | real | Organic phosphorus | kg P |
-| no3\_n | real | Nitrate | kg N  |
+| no3\_n | real | Nitrate | kg N |
 | sol\_p | real | Mineral \(soluble P\) | kg P |
 | chla | real | Chlorophyll-a | kg |
-| nh3\_n | real | Ammonia | kg N  |
-| no2\_n | real | Nitrogen dioxide | kg N  |
+| nh3\_n | real | Ammonia | kg N |
+| no2\_n | real | Nitrogen dioxide | kg N |
 | cbn\_bod | real | Carbonaceous biological oxygen demand | kg |
 | oxy | real | Dissolved oxygen | kg |
 | sand | real | Detached sand |  |
@@ -71,5 +71,5 @@ Each record in recall\_rec will have a data file named {name}.rec. All of this d
 | sm\_agg | real | Detached small ag |  |
 | lg\_agg | real | Detached large ag |  |
 | gravel | real | Gravel |  |
-| tmp | real | Temperature | deg c  |
+| tmp | real | Temperature | deg c |
 

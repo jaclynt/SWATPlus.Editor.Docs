@@ -194,7 +194,7 @@ Values in the operations tables are provided in the SWAT+ datasets database and 
 | :--- | :--- | :--- | :--- | :--- |
 | id | int | Auto-assigned identifier |  |  |
 | name | text | Name of operation |  |  |
-| fert\_id | int | ID of fertilizer from fertilizer\_frt  |  |  |
+| fert\_id | int | ID of fertilizer from fertilizer\_frt |  |  |
 | bm\_eat | real | Dry weight of biomass removed by grazing daily | kg/ha | 0-500 |
 | bm\_tramp | real | Dry weight of biomass removed by trampling daily | kg/ha | 0-500 |
 | man\_amt | real | Dry weight of manure deposited | kg/ha | 0-500 |

@@ -69,7 +69,7 @@ General watershed attributes are defined in the basin input files: codes and par
 | trans\_loss | real | Fraction of transmission losses from main channel that enter deep aquifer |  | 0 | 0-1 |
 | evap\_adj | real | Reach evaporation adjustment factor |  | 0.6 | 0.5-1 |
 | cn\_co | real | Currently not being used |  |  |  |
-| denit\_exp | real | Denitrification exponential rate coefficient         |  | 1.4 | 0-3 |
+| denit\_exp | real | Denitrification exponential rate coefficient |  | 1.4 | 0-3 |
 | denit\_frac | real | Denitrification threshold water content |  | 1.3 | 0-1 |
 | man\_bact | real | Fraction of manure applied to land areas that has active colony forming units |  | 0.15 | 0-1 |
 | adj\_uhyd | real | Adjustment factor for subdaily unit hydrograph basetime |  | 0 | 0-1 |

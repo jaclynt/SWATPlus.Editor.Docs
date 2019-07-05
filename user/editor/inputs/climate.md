@@ -24,7 +24,7 @@ If you are not using observed weather data, it is important to leave the box unc
 
 ## Import Observed Weather Data
 
-Import observed weather data from the top of the weather stations section. The data files may be in one of two formats: SWAT2012/Global Weather Data CFSR website format, or SWAT+. 
+Import observed weather data from the top of the weather stations section. The data files may be in one of two formats: SWAT2012/Global Weather Data CFSR website format, or SWAT+.
 
 {% hint style="info" %}
 After importing observed weather data, be sure to modify your simulation run time to match your weather dates.
