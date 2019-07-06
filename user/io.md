@@ -6,5 +6,5 @@ The SWAT+ input documentation is available as a PDF file here. However, you may 
 
 {% page-ref page="editor/" %}
 
-SWAT+ output documentation is not yet available. However, units are available under the heading line in the output files, and also in the `column_description` table in the output SQLite database. 
+SWAT+ output documentation is not yet available. However, units are available under the heading line in the output files, and also in the `column_description` table in the output SQLite database.
 

@@ -13,10 +13,10 @@ Because there are 3 distinct pieces to SWAT+, we have created user groups for ea
 [**QSWAT+ user group**](https://groups.google.com/d/forum/qswatplus)  
 For issues defining your watershed in QGIS and using the QSWAT+ plugin.
 
-\*\*\*\*[**SWAT+ Editor user group**](https://groups.google.com/d/forum/swatplus-editor)  
+[**SWAT+ Editor user group**](https://groups.google.com/d/forum/swatplus-editor)  
 For issues related to the editor interface.
 
-\*\*\*\*[**SWAT+ model user group**](https://groups.google.com/d/forum/swatplus)  
+[**SWAT+ model user group**](https://groups.google.com/d/forum/swatplus)  
 For questions and discussion related to the model itself, not the editor or GIS interfaces.
 
 ## Bug/Issue Reporting

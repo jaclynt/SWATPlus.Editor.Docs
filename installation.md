@@ -22,7 +22,7 @@ Upon opening the installer, you will be presented with a screen asking which com
 
 ![](.gitbook/assets/tools-installer-1.2.0.PNG)
 
-If QSWAT+ and SWAT+ Editor are selected, their individual installers will open next.  
+If QSWAT+ and SWAT+ Editor are selected, their individual installers will open next.
 
 ## SWAT+ Model \(Command Line Executable\)
 
