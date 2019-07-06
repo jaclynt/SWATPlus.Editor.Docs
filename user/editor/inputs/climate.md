@@ -22,18 +22,6 @@ Below the table name field is a check box asking if you are using observed weath
 
 If you are not using observed weather data, it is important to leave the box unchecked so that weather stations are created for you.
 
-### CSV Import
-
-If you do not want to use the SQLite database, you may import CSV files of your weather generator data. Two CSV files are required.
-
-1. Stations CSV file:
-   * Columns `id, name, lat, lon, elev, rain_yrs`
-   * `id` should be uniquely numbered
-2. Monthly values CSV file:
-   * Columns `id, wgn_id, month, tmp_max_ave, tmp_min_ave, tmp_max_sd, tmp_min_sd, pcp_ave, pcp_sd, pcp_skew, wet_dry, wet_wet, pcp_days, pcp_hhr, slr_ave, dew_ave, wnd_ave`
-   * `id` should be uniquely numbered
-   * `wgn_id` corresponds to the `id` column from the stations file
-
 ## Import Observed Weather Data
 
 Import observed weather data from the top of the weather stations section. The data files may be in one of two formats: SWAT2012/Global Weather Data CFSR website format, or SWAT+.

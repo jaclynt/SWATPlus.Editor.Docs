@@ -3,8 +3,7 @@
 * [About SWAT+](README.md)
 * [Installation](installation.md)
 * [Getting Started](getting-started.md)
-* [Get Help](get-help/README.md)
-  * [Troubleshooting](get-help/troubleshooting.md)
+* [Get Help](get-help.md)
 * [Release Notes](release-notes.md)
 * [Source Code](source-code.md)
 
