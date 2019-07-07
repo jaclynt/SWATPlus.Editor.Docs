@@ -24,12 +24,7 @@ Please use the following Robit demo project, which has already been set up in QS
 
 ## Watch the SWAT+ Editor guide video
 
-{% hint style="warning" %}
-Note: I am in the process of updating the video for version 1.2. It will be available in a few days.  
-For now, if you watch the 1.1 version linked below keep in mind it uses a different dataset and some things may have changed.
-{% endhint %}
-
-Please [watch the guide video](https://youtu.be/OmqKO0Gm5co) before launching SWAT+ Editor. This video will quickly walk you through the steps needed to bring your QSWAT+ project into the editor, as well as show you how to catch and report errors. If you prefer a written guide instead of or in addition to the video, a walk through is shown below.
+Please [watch the guide video](https://youtu.be/iZHt22-5OFk) before launching SWAT+ Editor. This video will quickly walk you through the steps needed to bring your QSWAT+ project into the editor, as well as show you how to catch and report errors. If you prefer a written guide instead of or in addition to the video, a walk through is shown below.
 
 ## Walk through guide for SWAT+ Editor
 
