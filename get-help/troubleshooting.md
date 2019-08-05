@@ -57,5 +57,3 @@ If you receive any other error messages from SWAT+ Editor, from its menu go to V
 
 If you received an error running the model, first make sure you have run it in debug mode and checked the detailed error received. If you are not able to make sense of the source of the model error, please post to the [SWAT+ model user group](https://groups.google.com/d/forum/swatplus) **AND include your project files**. This error is likely project specific and we cannot help you without seeing your project files.
 
-
-

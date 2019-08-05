@@ -1,22 +1,61 @@
 ---
-description: SWAT+ Editor 1.1.1 with SWAT+ revision 59
+description: SWAT+ Editor 1.2.0 with QSWAT+ 1.2.2 and SWAT+ revision 59.3
 ---
 
 # Release Notes
 
-## SWAT+ revision 59
+## SWAT+ revision 59.3
 
 Download the revision notes for the model below.
 
-{% file src=".gitbook/assets/swatplus-rev-notes-55.1-59.pdf" caption="SWAT+ Revision Notes 55.1-59" %}
+{% file src=".gitbook/assets/swatplus-rev-notes-55.1-59.3.pdf" caption="SWAT+ Revision Notes 55.1-59.3" %}
 
-## SWAT+ Editor 1.1.1 patch notes
+## QSWAT+ revision 1.2.2
+
+* Environmental flows have been added.
+* Revised treatment of ponds and reservoirs.
+
+## SWAT+ Editor revision 1.2.1
+
+* Small fix for projects using barren land use.
+* Fixed bug when receiving an error trying to edit a row in landuse management.
+
+## SWAT+ Editor revision 1.2.0
+
+* Compatible with SWAT+ rev. 59.3
+* Fixes default routing in rout\_unit\_con for upland to floodplain surface runoff. Use fraction of area of upland routing unit surface runoff goes to channel/reservoir, the remaining goes to floodplain \(see Bieger et al. JAWRA 2019\). New projects only, existing projects should try re-import from GIS option. 
+* Change aquifer creation. Previously created one aquifer per channel. Changed to two per subbasin \(upland/floodplain\), and add a deep aquifer for each outlet.
+* Fixes default principal/emergency area and volume of reservoirs. Note: new projects / re-import GIS data only. Existing projects should update values manually as needed. New defaults are described below:
+  * Principal spillway area \(`area_ps`\) is set from GIS data
+  * Emergency spillway area is set to `area_ps * 1.15`
+  * Principal spillway volume is set to `area_ps * 10`
+  * Emergency spillway volume is set to `area_es * 10`
+* Un-managed ponds are now retained as HRUs in QSWAT+. Imported to the editor as HRUs with wetlands inputs \(wetlands\_wet and hydrology\_wet\).
+* Update output database tables to include revisions from model rev. 59.3: channel and channel morph, reservoir, and wetlands columns.
+* Project update function available for the following data changes related to model rev. 59.1-3:
+  * Update cal\_parm\_cal abs\_max=10 and units=m for flo\_min and revap\_min. Add dep\_bot.
+  * Update aquifer\_aqu default values for gw\_flo=0.05, dep\_wt=10, flo\_min=5, revap\_min=3.
+  * In plant\_ini\_item, yrs\_init changed to fraction \(change values to 1 where previously 15\), and biomass increased for some plants. Lc\_status changed to yes for past and barr plants.
+  * Update codes\_bsn default values for pet=1, rtu\_wq=1, wq\_cha=1
+* User interface improvements:
+  * Add csv import for weather generator data.
+  * All related table search boxes return all possible results underneath matches to typed text.
+  * Add automatic database rollback when user gets an error importing GIS or updating project.
+* Bug fixes:
+  * Fixed bug when updating project from 1.0.0, a variable was not declared.
+  * Fixed bug where weather stations were created but not always assigned weather data file if one exists.
+  * Fixed bug when trying to import weather data located on another hard drive.
+  * Fixed bug where swatplus\_rest\_api.exe wasn't terminating correctly when exiting the editor.
+
+## SWAT+ Editor revision 1.1.1
 
 * Fixes bug when importing GIS data into plant communities not in the datasets database
 * Print section usability update
 * Update automatic project database backups so multiple failed import/upgrade attempts don't overwrite the original
 
-## SWAT+ Editor changes from 1.0.0
+## SWAT+ Editor revision 1.1.0 changes from 1.0.0
+
+The remainder of this page outlines what changed from the initial release of the editor in fall 2018 to version 1.1.0 released in spring 2019. If you never used version 1.0.0, you can skip the remainder of this page.
 
 * Upgrade function available for projects made with version 1.0.0.
 * Compatible with SWAT+ rev. 59.

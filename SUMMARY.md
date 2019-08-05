@@ -3,9 +3,11 @@
 * [About SWAT+](README.md)
 * [Installation](installation.md)
 * [Getting Started](getting-started.md)
-* [Get Help](get-help.md)
+* [Get Help](get-help/README.md)
+  * [Troubleshooting](get-help/troubleshooting.md)
 * [Release Notes](release-notes.md)
 * [Source Code](source-code.md)
+* [Download Docs](download-docs.md)
 
 ## User Docs <a id="user"></a>
 

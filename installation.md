@@ -11,16 +11,18 @@ If you plan to use QSWAT+ to set up your watershed, please install QGIS 3 before
 To install the SWAT+ model and interface components, please use the installer linked below. The installer is for 64-bit Windows machines. Administrator privileges are not required, however you must have access to your C drive.
 
 {% hint style="info" %}
-### [**Download SWAT+ Installer 1.1.1**](https://plus.swat.tamu.edu/downloads/swatplustools-installer-1.1.1.zip)
+### [**Download SWAT+ Installer 1.2**.1](https://plus.swat.tamu.edu/downloads/swatplustools-installer-1.2.1.zip)
 
 Windows 64 bit  
-Includes SWAT+ rev. 59, QSWAT+ 1.0.0, SWAT+ Editor 1.1.1, and SWAT+ databases  
+Includes SWAT+ rev. 59.3, QSWAT+ 1.2.2, SWAT+ Editor 1.2.1, and SWAT+ databases  
 [Release notes](release-notes.md)
 {% endhint %}
 
 Upon opening the installer, you will be presented with a screen asking which components you would like to install. The soils and weather generator databases will be downloaded in the next screen if checked.
 
-If QSWAT+ and SWAT+ Editor are selected, their individual installers will open next. All components will be installed under the directory `C:\SWAT\SWATPlus`. If your system requires a different installation path, please contact us.
+![](.gitbook/assets/tools-installer-1.2.0.PNG)
+
+If QSWAT+ and SWAT+ Editor are selected, their individual installers will open next.
 
 ## SWAT+ Model \(Command Line Executable\)
 
@@ -28,16 +30,16 @@ The model itself is packaged with SWAT+ Editor and we recommend using the editor
 
 ### Windows 64 bit
 
-{% file src=".gitbook/assets/swatplus\_exe\_rev59.zip" caption="Windows SWAT+ rev. 59 executable" %}
+{% file src=".gitbook/assets/swatplus\_exe\_rev59\_3.zip" caption="Windows SWAT+ rev. 59.3 executable" %}
 
 ### Linux 64 bit
 
-{% file src=".gitbook/assets/swatplusrev59-static.zip" caption="Linux SWAT+ rev. 59 \(static\)" %}
+{% file src=".gitbook/assets/swatplusrev59-static \(2\).zip" caption="Linux SWAT+ rev. 59.3 \(static\)" %}
 
-{% file src=".gitbook/assets/swatplusrev59.zip" caption="Linux SWAT+ rev. 59 \(dynamic\)" %}
+{% file src=".gitbook/assets/swatplusrev59 \(1\).zip" caption="Linux SWAT+ rev. 59.3 \(dynamic\)" %}
 
 {% hint style="info" %}
-Note: the QSWAT+ and SWAT+ Editor available above require a Windows machine. However, we may be able to compile for Linux at a later time. Please contact us if you need this.
+Note: the QSWAT+ and SWAT+ Editor available above require a Windows machine. However, we plan to compile for Linux at a later time. Please contact us if you need this.
 {% endhint %}
 
 ## SWAT+ SQLite Datasets
