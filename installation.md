@@ -11,7 +11,7 @@ If you plan to use QSWAT+ to set up your watershed, please install QGIS 3 before
 To install the SWAT+ model and interface components, please use the installer linked below. The installer is for 64-bit Windows machines. Administrator privileges are not required, however you must have access to your C drive.
 
 {% hint style="info" %}
-### [**Download SWAT+ Installer 1.2**.2](https://plus.swat.tamu.edu/downloads/swatplustools-installer-1.2.1.zip)
+### \*\*\*\*[**Download SWAT+ Installer 1.2**.2](https://plus.swat.tamu.edu/downloads/swatplustools-installer-1.2.2.zip)
 
 Windows 64 bit  
 Includes SWAT+ rev. 59.3, QSWAT+ 1.2.2, SWAT+ Editor 1.2.2, and SWAT+ databases  
