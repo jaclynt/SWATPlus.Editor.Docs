@@ -43,7 +43,11 @@ Use a production WSGI server instead.
 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
-If this is what you received, please simply close SWAT+ Editor and try launching it again. If it still doesn't load, or you received an error message above, please contact Jaclyn directly at [jaclynt@tamu.edu](mailto:jaclynt@tamu.edu). You will receive a response as soon as possible, but please understand it may take several days. This error is possibly due to settings on your computer and you may not be able to get a solution from the Google group.
+If this is what you received, please simply close SWAT+ Editor and try launching it again. 
+
+If you get no message on the screen at all, it might be a permission or error related to your computer settings. Try installing to another location on your machine, such as another hard drive, or even install to a flash drive. If this still does not work, try another machine.
+
+If you receive an error message, please copy it and report to the [Bitbucket issue tracker](https://bitbucket.org/swatplus/swatplus.editor/issues?status=new&status=open).
 
 ### I received an error importing GIS data or updating my project
 
