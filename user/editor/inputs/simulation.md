@@ -56,7 +56,9 @@ Configure the number or years to run the simulation and time step. If you have o
       <td style="text-align:left">Time steps in a day for rainfall, runoff and routing</td>
     </tr>
   </tbody>
-</table>## Print
+</table>
+
+## Print
 
 Configure the output files to print.
 
