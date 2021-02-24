@@ -30,7 +30,9 @@ Configure the number or years to run the simulation and time step. If you have o
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left">day_end</th>
@@ -42,7 +44,9 @@ Configure the number or years to run the simulation and time step. If you have o
     </tr>
   </thead>
   <tbody></tbody>
-</table>| step | int | Time steps in a day for rainfall, runoff and routing |
+</table>
+
+| step | int | Time steps in a day for rainfall, runoff and routing |
 | :--- | :--- | :--- |
 
 
