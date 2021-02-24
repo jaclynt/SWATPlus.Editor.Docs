@@ -1,14 +1,12 @@
 # Connections
 
-The connections section contains all spatial object connectivity for the simulation run. In SWAT+ Editor, all connection object properties can be set through this section. For example, when you click on channels, you will see additional menu links appear for: properties, initialization, hydrology and sediment, and nutrients.
+The connections section contains all spatial object connectivity for the simulation run. In SWAT+ Editor, all connection object properties can be set through this section. For example, when you click on channels, you will see additional menu links appear for initialization, hydrology and sediment, and nutrients.
 
-![Example: channel connection object main page](../../../../.gitbook/assets/connect-example-channels.png)
+![](../../../../.gitbook/assets/spe-2-channels.png)
 
-All connection objects have a similar format as seen in the above figure. The tabular view is shown by default. Click the map view tab to see a map with markers for the center coordinates of each object. Click an object marker in the map view, or edit icon on the left side of a row in the table to view or edit the object.
+All connection objects have a similar format as seen in the above figure. Each connection object will have properties associated with it \(such as initial, hydrology and sediment, and nutrients in this example\) as well as a weather station. Click on these names in the table, or from the edit view page, click the button next to their names to view information about the properties object or weather station.
 
-Each connection object will have a main properties object associated with it as well as a weather station. Click on these names in the table, or from the edit view page, click the button next to their names to view information about the properties object or weather station.
-
-Each connection object may have outflow. This can be viewed in the table by clicking the eye icon in the rightmost column, or view from the edit page.
+Each connection object may have outflow. The total number of outflow connections is shown in the right-most column of the table \(note: you may need to use the horizontal scroll button at the bottom of the table if it is wide\). To view the outflow objects, click the edit icon on the left of the row you want to view.
 
 If you imported your project from GIS, your connection objects are populated automatically during project setup.
 

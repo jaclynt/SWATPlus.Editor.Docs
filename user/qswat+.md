@@ -1,4 +1,4 @@
 # QSWAT+ Manual
 
-{% file src="../.gitbook/assets/qswatplus-manual\_v1.0.0.pdf" caption="QSWAT+ 1.0.0 Manual" %}
+{% file src="../.gitbook/assets/qswatplus\_manual\_v2.0.pdf" caption="QSWAT+ Manual v.2.0" %}
 

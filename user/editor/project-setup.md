@@ -1,30 +1,20 @@
 # Project Setup
 
-When you open SWAT+ Editor, you are taken to the project setup screen. If you are coming from QSWAT+, an overlay will appear with the paths to your project databases. You may edit these as needed, and click the start import button.
+When you open SWAT+ Editor, you are taken to the project setup screen. If you are coming from QSWAT+, an overlay will appear with the option to change your project display name and optionally use the lite version of the mode: SWAT+ lte. 
 
-![Opening SWAT+ Editor from within the QSWAT+ plugin](../../.gitbook/assets/2-load-qswat.PNG)
+![](../../.gitbook/assets/spe-2-load-project.png)
 
 When your project is done importing from GIS, it will be selected as your current project and displayed in the recent projects sidebar on the left as well as in the center screen.
 
-From here you can start editing your SWAT+ inputs by clicking the button in the middle, or by clicking the paper icon in the far left blue-colored menu.
+From here you can start editing your SWAT+ inputs by clicking the "Get started" button at the bottom, or by clicking the pencil icon in the far left blue-colored menu.
 
-![](../../.gitbook/assets/2-current-project.PNG)
+![](../../.gitbook/assets/spe-2-new-imported-project.png)
 
 ## SWAT+ lte
 
-SWAT+ lte is a version of the SWAT+ model that greatly simplifies hydrology and plant growth and does not simulate nutrients, concentrating on gully formation and stream degradation. It only uses channel and HRU objects, so this option is not available if you have point source or reservoirs.
+SWAT+ lte is a version of the SWAT+ model that greatly simplifies hydrology and plant growth and does not simulate nutrients, concentrating on gully formation and stream degradation. It only uses channel and HRU objects.
 
-If your project in QSWAT+ does not have point source or reservoirs, you will have an option to set up your project for SWAT+ lte by checking the box. Otherwise, this option is hidden.
+## Using the editor without GIS
 
-## Other options for opening a project
-
-If you are not coming from QSWAT+, you may open the editor and choose from one of three options:
-
-![](../../.gitbook/assets/1-load.PNG)
-
-Open project allows you to select an existing SWAT+ Editor project settings file and load it into the editor. Please note that this is an existing **editor** project, not any SWAT+ project. You must have an existing .json file for this option to work.
-
-Click import from GIS to manually select your QSWAT+ project database file. From here the steps are the same as described above when coming directly from QSWAT+.
-
-Click new project to start a SWAT+ project from scratch, or if you have an existing SWAT+ project database but no settings file. If creating from scratch, leave the project database field blank and it will be created for you.
+If you are not coming from QSWAT+, you may open the editor and create a new project from scratch. A project database will be created for you and you will need to input your spatial connections and all other data manually.
 
