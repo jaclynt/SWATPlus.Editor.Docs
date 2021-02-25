@@ -5,6 +5,7 @@
 * [Getting Started](getting-started.md)
 * [Get Help](get-help/README.md)
   * [Troubleshooting](get-help/troubleshooting.md)
+  * [Installation Troubleshooting](get-help/installation-troubleshooting.md)
 * [Release Notes](release-notes.md)
 * [Source Code](source-code.md)
 * [Download Docs](download-docs.md)
