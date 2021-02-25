@@ -22,7 +22,7 @@ If you do NOT see the above screen and instead your see a loading spinner for a 
 
 If either file has a date earlier than February 2021, they did not get updated during installation. Please uninstall SWAT+ entirely, manually delete the SWATPlus folder, and install everything again.
 
-If the date is February 2021 or later, please refer to our generic troubleshooting guide under the unable to load SWAT+ Editor section.
+If the date is February 2021 or later, please refer to our generic troubleshooting guide linked below, under the "I received an error in SWAT+ Editor" section.
 
 {% page-ref page="troubleshooting.md" %}
 
