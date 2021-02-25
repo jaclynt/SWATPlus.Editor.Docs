@@ -20,5 +20,9 @@ If this is what you see, simple click the update project button to continue. Whi
 
 If you do NOT see the above screen and instead your see a loading spinner for a minute followed by a message that the editor did not load correctly, it's possible that your update didn't work properly. Verify the data of the two files located in your SWATPlus installation folder, `SWATPlus/SWATPlusEditor/resources/app.asar.unpacked/api_dist`.
 
-If either file has a date earlier than February 2020, they did not get updated during installation. Please uninstall SWAT+ entirely, manually delete the SWATPlus folder, and install everything again.
+If either file has a date earlier than February 2021, they did not get updated during installation. Please uninstall SWAT+ entirely, manually delete the SWATPlus folder, and install everything again.
+
+If the date is February 2021 or later, please refer to our generic troubleshooting guider under the unable to load SWAT+ Editor section.
+
+{% page-ref page="troubleshooting.md" %}
 
