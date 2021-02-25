@@ -8,6 +8,8 @@ We recommend updating QGIS to version 3.16, although version 3.10 is fine as wel
 
 For most users, the QSWAT+ plugin should appear automatically in your QGIS toolbar after install. If it does not, click on the Plugins menu, then verify it is listed and checked in your list of installed plugins. If not, check the QGIS messages by clicking the thought bubble icon in the lower right corner of the screen. Click the QSWAT+ tab and copy and paste the messages in a new post in the [QSWAT+ User Group](./). If there is no QSWAT+ tab, check the other tabs for information.
 
+You might also try installing the QSWAT+ plugin separately. Get the installer from the [Bitbucket page](https://bitbucket.org/ChrisWGeorge/qswatplus3/downloads/).
+
 ![](../.gitbook/assets/qsp2-load.png)
 
 ### Updating Version 1.x Projects in SWAT+ Editor
@@ -25,4 +27,11 @@ If either file has a date earlier than February 2021, they did not get updated d
 If the date is February 2021 or later, please refer to our generic troubleshooting guide linked below, under the "I received an error in SWAT+ Editor" section.
 
 {% page-ref page="troubleshooting.md" %}
+
+### Individual Component Installation
+
+If nothing above helps, or you are just having trouble with one specific piece of the software, you might try downloading the individual installers linked below:
+
+* [QSWAT+ Installers](https://bitbucket.org/ChrisWGeorge/qswatplus3/downloads/)
+* [SWAT+ Editor Installers](https://bitbucket.org/swatplus/swatplus.editor/downloads/)
 
