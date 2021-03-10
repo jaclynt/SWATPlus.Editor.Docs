@@ -1,5 +1,5 @@
 ---
-description: SWAT+ Editor 2.0.0 with QSWAT+ 2.0.0 and SWAT+ revision 60.5.2
+description: SWAT+ Editor 2.0.x with QSWAT+ 2.0.x and SWAT+ revision 60.5.2
 ---
 
 # Release Notes
@@ -10,7 +10,13 @@ Download the revision notes for the model below.
 
 {% file src=".gitbook/assets/swatplus-rev-notes-60-60.5.2 \(1\).pdf" %}
 
-## SWAT+ Editor revision 2.0.0
+## SWAT+ Editor revision 2.0
+
+### Revision 2.0.1
+
+* Minor update to fix write time of `rout_unit.def` and `ls_unit.def` for larger projects with many HRUs.
+
+### Revision 2.0.0
 
 We recommend using new projects created in the new QSWAT+ 2.0.x with version 2 of the editor. However, if this is not feasible, an upgrade function is available when you load your older projects in the editor. If you are using the land use management \(lum.dtl\) default decision tables provided in previous versions of the editor, we recommend manually updating them. The old ones have an error causing crops not to be planted. Download instructions below:
 
