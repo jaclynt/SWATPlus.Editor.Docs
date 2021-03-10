@@ -1,5 +1,5 @@
 ---
-description: SWAT+ Editor 2.0.x with QSWAT+ 2.0.x and SWAT+ revision 60.5.2
+description: SWAT+ Editor 2.0 with QSWAT+ 2.0 and SWAT+ revision 60.5.2
 ---
 
 # Release Notes

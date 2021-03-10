@@ -18,11 +18,18 @@ This release includes **SWAT+ rev. 60.5.2**, **QSWAT+ 2.0.4**, and **SWAT+ Edito
 
 {% page-ref page="release-notes.md" %}
 
-Trouble loading the software after installation? Read through our installation troubleshooting guide.
+Trouble loading the software after installation? Read through our troubleshooting guide.
 
-{% page-ref page="get-help/installation-troubleshooting.md" %}
+{% page-ref page="get-help/troubleshooting.md" %}
 
-## SWAT+ Model \(Command Line Executable\)
+## Individual Component Installation
+
+If you need to install QSWAT+ or SWAT+ Editor individually, grab the latest release of their respective installers from their source code repository downloads page.
+
+* [QSWAT+ Installers](https://bitbucket.org/ChrisWGeorge/qswatplus3/downloads/)
+* [SWAT+ Editor Installers](https://bitbucket.org/swatplus/swatplus.editor/downloads/)
+
+### SWAT+ Model \(Command Line Executable\)
 
 The model itself is packaged with SWAT+ Editor and we recommend using the editor to modify your inputs and run the model. However, if you would like to download just the command line executable file, it is available below.
 
