@@ -12,9 +12,9 @@ This release includes **SWAT+ rev. 60.5.2**, **QSWAT+ 2.0.5**, and **SWAT+ Edito
 
 | Operating System | Link | Release Date | Version |
 | :--- | :--- | :--- | :--- |
-| Windows 64-bit | [Download \(zipped installer, 111 MB\)](https://plus.swat.tamu.edu/downloads/swatplustools-installer-2.0.1.zip) | 10 Mar 2021 | 2.0.1 |
-| Linux 64-bit | Coming soon | Spring 2021 |  |
-| MacOS 64-bit | Coming soon | Spring 2021 |  |
+| Windows 64-bit | [Download \(111 MB\)](https://plus.swat.tamu.edu/downloads/swatplustools-installer-2.0.1.zip) | 11 Mar 2021 | 2.0.1 |
+| Linux 64-bit | [Download \(169 MB\)](https://plus.swat.tamu.edu/downloads/swatplus-linux-installer-2.0.1.tgz) | 11 Mar 2021 | 2.0.1 |
+| MacOS 64-bit | [Download \(262 MB\)](https://plus.swat.tamu.edu/downloads/swatplus-mac-installer-2.0.1.tgz) | 11 Mar 2021 | 2.0.1 |
 
 {% page-ref page="release-notes.md" %}
 
@@ -34,6 +34,10 @@ If you need to install QSWAT+ or SWAT+ Editor individually, grab the latest rele
 The model itself is packaged with SWAT+ Editor and we recommend using the editor to modify your inputs and run the model. However, if you would like to download just the command line executable file, it is available below.
 
 {% file src=".gitbook/assets/rev60.5.2\_64\_windows.zip" caption="Windows 64bit - SWAT+ rev. 60.5.2" %}
+
+{% file src=".gitbook/assets/rev60.5.2\_64rel\_linux.zip" caption="Linux 64bit - SWAT+ rev. 60.5.2" %}
+
+{% file src=".gitbook/assets/rev60.5.2\_64rel\_mac.zip" caption="MacOS 64bit - SWAT+ rev. 60.5.2" %}
 
 ## SWAT+ SQLite Datasets
 

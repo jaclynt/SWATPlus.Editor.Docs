@@ -13,13 +13,19 @@ Because there are 3 distinct pieces to SWAT+, we have created user groups for ea
 [**QSWAT+ user group**](https://groups.google.com/d/forum/qswatplus)  
 For issues defining your watershed in QGIS and using the QSWAT+ plugin.
 
-\*\*\*\*[**SWAT+ Editor user group**](https://groups.google.com/d/forum/swatplus-editor)  
+[**SWAT+ Editor user group**](https://groups.google.com/d/forum/swatplus-editor)  
 For issues related to the editor interface.
 
-\*\*\*\*[**SWAT+ model user group**](https://groups.google.com/d/forum/swatplus)  
+[**SWAT+ model user group**](https://groups.google.com/d/forum/swatplus)  
 For questions and discussion related to the model itself, not the editor or GIS interfaces.
 
-## Bug/Issue Reporting
+## SWAT+ Editor Bug/Issue Reporting
 
-For SWAT+ Editor bugs or issues, report to the user groups or the [Bitbucket issue tracker](https://bitbucket.org/swatplus/swatplus.editor/issues?status=new&status=open).
+For SWAT+ Editor bugs or technical issues, report to the user groups or the [Bitbucket issue tracker](https://bitbucket.org/swatplus/swatplus.editor/issues?status=new&status=open). However, please use this only for **Editor software problems**, and continue to use the google group for data-related issues.
+
+## Troubleshooting Common Issues
+
+Before contacting support, please read through our list of common issues to see if there is a simple solution already posted.
+
+{% page-ref page="troubleshooting.md" %}
 
