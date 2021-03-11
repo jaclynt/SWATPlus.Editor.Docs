@@ -14,7 +14,7 @@ First, check to make sure you have the most recent version of the tools installe
 * [QSWAT+ Installers](https://bitbucket.org/ChrisWGeorge/qswatplus3/downloads/)
 * [SWAT+ Editor Installers](https://bitbucket.org/swatplus/swatplus.editor/downloads/)
 
-If you are upgrading from a previous version, before installing an update, be sure to close SWAT+ Editor, QSWAT+, and QGIS. If you have trouble opening the software, or loading your existing projects in SWAT+ Editor, open the task manager and verify no instances of `swatplus_rest_api.exe` are running. If they are, right-click and end the task, and reinstall. We recommend updating QGIS to version 3.16, although version 3.10 is fine as well. 
+If you are upgrading from a previous version, before installing an update, be sure to close SWAT+ Editor, QSWAT+, and QGIS. If you have trouble opening the software, or loading your existing projects in SWAT+ Editor, open the task manager and verify no instances of `swatplus_rest_api.exe` are running. If they are, right-click and end the task, and reinstall
 
 ## QSWAT+
 
