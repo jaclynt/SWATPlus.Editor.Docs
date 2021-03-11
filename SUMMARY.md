@@ -5,6 +5,7 @@
 * [Getting Started](getting-started.md)
 * [Get Help](get-help/README.md)
   * [Troubleshooting](get-help/troubleshooting.md)
+  * [Linux and MacOS](get-help/linux-and-macos.md)
 * [Release Notes](release-notes.md)
 * [Source Code](source-code.md)
 * [Download Docs](download-docs.md)
