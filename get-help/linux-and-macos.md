@@ -9,7 +9,7 @@ description: >-
 
 ## Installation
 
-First install the latest LTR version of QGIS from their downloads page. Please note that if you are using Ubuntu's software manager, it might have an old version, so please use the instructions from the QGIS website. 
+First install the latest LTR version of [QGIS](https://www.qgis.org/) from their downloads page. Please note that if you are using Ubuntu's software manager, it might have an old version, so please use the instructions from the QGIS website. 
 
 After QGIS is installed, download the Linux or MacOS .tgz file from the [installation page](../installation.md) and extract it. From a terminal go to the extracted folder location and run either `./installforme.sh` or `./installforall.sh`.
 
