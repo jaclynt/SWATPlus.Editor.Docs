@@ -17,9 +17,13 @@ Open QGIS and verify the SWAT+ plugin is installed. Visit our general troublesho
 
 ## Known Issues
 
-### SWAT+ Editor on Debian 10
+### SWAT+ Editor on Debian 10: SUID Sandbox
 
-You may receive an error trying to launch SWAT+ Editor on Debian or other non-Ubuntu Linux distributions. If so, please try the following.
+You may receive an error trying to launch SWAT+ Editor on Debian or other non-Ubuntu Linux distributions:
+
+> The SUID sandbox helper binary was found, but it is not configured correctly.
+
+ If so, please try the following.
 
 Find your installation location. If you did install for me, it is:
 
