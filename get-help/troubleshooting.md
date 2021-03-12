@@ -14,7 +14,7 @@ First, check to make sure you have the most recent version of the tools installe
 * [QSWAT+ Installers](https://bitbucket.org/ChrisWGeorge/qswatplus3/downloads/)
 * [SWAT+ Editor Installers](https://bitbucket.org/swatplus/swatplus.editor/downloads/)
 
-If you are upgrading from a previous version, before installing an update, be sure to close SWAT+ Editor, QSWAT+, and QGIS. If you have trouble opening the software, or loading your existing projects in SWAT+ Editor, open the task manager and verify no instances of `swatplus_rest_api.exe` are running. If they are, right-click and end the task, and reinstall
+If you are upgrading from a previous version, before installing an update, be sure to close SWAT+ Editor, QSWAT+, and QGIS. If you have trouble opening the software, or loading your existing projects in SWAT+ Editor, open the task manager and verify no instances of `swatplus_rest_api.exe` are running. If they are, right-click and end the task, and reinstall.
 
 ## QSWAT+
 
@@ -80,7 +80,7 @@ Use a production WSGI server instead.
 
 If this is what you received, please simply close SWAT+ Editor and try launching it again. 
 
-If you get no message on the screen at all, it might be a permission or error related to your computer settings. Try installing to another location on your machine, such as another hard drive, or even install to a flash drive. If this still does not work, try another machine.
+If you get no message on the screen at all, it might be a permission error or problem related to your computer settings. Try installing to another location on your machine, such as another hard drive, or even install to a flash drive. If this still does not work, try another machine.
 
 If you still cannot get it to open, you may need to try the Python version of the editor. You will need to install [Python version 3.x](https://www.python.org/) on your machine first. Make note of your Python PATH variable \(typically `python` on Windows or `python3` on Linux/MacOS\). [Contact the developer](mailto:eco.web@tamu.edu) for a custom Python installer of the editor.
 
