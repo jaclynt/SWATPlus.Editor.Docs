@@ -13,8 +13,10 @@ This release includes **SWAT+ rev. 60.5.2**, **QSWAT+ 2.0.5**, and **SWAT+ Edito
 | Operating System | Link | Release Date | Version |
 | :--- | :--- | :--- | :--- |
 | Windows 64-bit | [Download \(111 MB\)](https://plus.swat.tamu.edu/downloads/swatplustools-installer-2.0.1.zip) | 11 Mar 2021 | 2.0.1 |
-| Linux 64-bit | [Download \(169 MB\)](https://plus.swat.tamu.edu/downloads/swatplus-linux-installer-2.0.1.tgz) | 11 Mar 2021 | 2.0.1 |
-| MacOS 64-bit | [Download \(262 MB\)](https://plus.swat.tamu.edu/downloads/swatplus-mac-installer-2.0.1.tgz) | 11 Mar 2021 | 2.0.1 |
+| \*Linux 64-bit | [Download \(169 MB\)](https://plus.swat.tamu.edu/downloads/swatplus-linux-installer-2.0.1.tgz) | 11 Mar 2021 | 2.0.1 |
+| \*MacOS 64-bit | [Download \(262 MB\)](https://plus.swat.tamu.edu/downloads/swatplus-mac-installer-2.0.1.tgz) | 11 Mar 2021 | 2.0.1 |
+
+_\*For Linux and MacOS, you will need to download the soils and WGN databases from the_ [_SWAT+ SQLite Datasets_](installation.md#swat-sqlite-datasets) _section below as they are not included in the installers._
 
 {% page-ref page="release-notes.md" %}
 
@@ -41,7 +43,7 @@ The model itself is packaged with SWAT+ Editor and we recommend using the editor
 
 ## SWAT+ SQLite Datasets
 
-We recommend using the SWAT+ Tools installer above for installing the SWAT+ datasets databases to their proper locations. However, if you need to access these components individually, they are linked below:
+On Windows we recommend using the SWAT+ Tools installer above for installing the SWAT+ datasets databases to their proper locations. However, for Linux and MacOS, or if you just need to access these components individually, they are linked below:
 
 * [SWAT+ datasets](https://bitbucket.org/swatplus/swatplus.editor/downloads/swatplus_datasets.sqlite)
 * [SWAT+ global weather generator data](https://bitbucket.org/swatplus/swatplus.editor/downloads/swatplus_wgn.sqlite)
