@@ -43,7 +43,7 @@ The model itself is packaged with SWAT+ Editor and we recommend using the editor
 
 ## SWAT+ SQLite Datasets
 
-On Windows we recommend using the SWAT+ Tools installer above for installing the SWAT+ datasets databases to their proper locations. However, for Linux and MacOS, or if you just need to access these components individually, they are linked below:
+On Windows we recommend using the SWAT+ Tools installer above for installing the SWAT+ datasets databases to their proper locations. However, for Linux and MacOS, or if you need to access these components individually, they are linked below:
 
 * [SWAT+ datasets](https://bitbucket.org/swatplus/swatplus.editor/downloads/swatplus_datasets.sqlite)
 * [SWAT+ global weather generator data](https://bitbucket.org/swatplus/swatplus.editor/downloads/swatplus_wgn.sqlite)
