@@ -16,7 +16,7 @@ This release includes **SWAT+ rev. 60.5.2**, **QSWAT+ 2.0.5**, and **SWAT+ Edito
 | \*Linux 64-bit | [Download \(169 MB\)](https://plus.swat.tamu.edu/downloads/swatplus-linux-installer-2.0.1.tgz) | 11 Mar 2021 | 2.0.1 |
 | \*MacOS 64-bit | [Download \(262 MB\)](https://plus.swat.tamu.edu/downloads/swatplus-mac-installer-2.0.1.tgz) | 11 Mar 2021 | 2.0.1 |
 
-_\*For Linux and MacOS, you will need to download the soils and WGN databases from the_ [_SWAT+ SQLite Datasets_](installation.md#swat-sqlite-datasets) _section below as they are not included in the installers._
+_\*For Linux and MacOS, the optional SSURGO/STATSGO soils and WGN databases should be downloaded from the_ [_SWAT+ SQLite Datasets_](installation.md#swat-sqlite-datasets) _section below as they are not included in the installers._ 
 
 {% page-ref page="release-notes.md" %}
 
