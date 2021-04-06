@@ -4,7 +4,7 @@
 
 If you plan to use QSWAT+ to set up your watershed, please install QGIS 3 before installing SWAT+. It can be downloaded from the [QGIS download page](https://www.qgis.org/en/site/forusers/download.html), where you should select the **Long term release repository**, and the **64 bit standalone installer**. Version 3.16 is recommended. Use the default folder `C:\Program Files\QGIS 3.16` as the installation folder. See the [QSWAT+ manual](user/qswat+.md) for further instructions.
 
-**Please note you must use QGIS version 3, not version 2.**
+**Please note you must use QGIS version 3, not version 2.** 
 
 ## 2. SWAT+ 2.0.3 Installer
 
