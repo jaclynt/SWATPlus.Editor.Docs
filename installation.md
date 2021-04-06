@@ -1,10 +1,10 @@
 # Installation
 
-## 1. Install QGIS 3
+## 1. Install QGIS 3.16
 
-If you plan to use QSWAT+ to set up your watershed, please install QGIS 3 before installing SWAT+. It can be downloaded from the [QGIS download page](https://www.qgis.org/en/site/forusers/download.html), where you should select the **Long term release repository**, and the **64 bit standalone installer**. Version 3.16 is recommended. Use the default folder `C:\Program Files\QGIS 3.16` as the installation folder. See the [QSWAT+ manual](user/qswat+.md) for further instructions.
+If you plan to use QSWAT+ to set up your watershed, please install QGIS 3 before installing SWAT+. It can be downloaded from the [QGIS download page](https://www.qgis.org/en/site/forusers/download.html), where you should select the **Long term release repository**, and the **64 bit standalone installer**. Version 3.16 is required. Use the default folder `C:\Program Files\QGIS 3.16` as the installation folder. See the [QSWAT+ manual](user/qswat+.md) for further instructions. 
 
-**Please note you must use QGIS version 3, not version 2.** 
+* **MacOS only:** users will need to install openmpi separately.  Run `brew install openmpi` from a terminal.
 
 ## 2. SWAT+ 2.0.3 Installer
 
@@ -16,7 +16,7 @@ This release includes **SWAT+ rev. 60.5.2**, **QSWAT+ 2.0.6**, and **SWAT+ Edito
 | \*Linux 64-bit | [Download \(194 MB\)](https://plus.swat.tamu.edu/downloads/swatplus-linux-installer-2.0.3.tgz) | 6 Apr 2021 | 2.0.3 |
 | \*MacOS 64-bit | [Download \(262 MB\)](https://plus.swat.tamu.edu/downloads/swatplus-mac-installer-2.0.1.tgz) | 11 Mar 2021 | \*\*2.0.1 |
 
-_\*For Linux and MacOS, the optional SSURGO/STATSGO soils and WGN databases should be downloaded from the_ [_SWAT+ SQLite Datasets_](installation.md#swat-sqlite-datasets) _section below as they are not included in the installers._
+_\*For Linux and MacOS, the optional SSURGO/STATSGO soils and WGN databases should be downloaded from the_ [_SWAT+ SQLite Datasets_](installation.md#swat-sqlite-datasets) _section below as they are not included in the installers. See detailed installation instructions for Linux and MacOS_ [_here_](get-help/linux-and-macos.md)_._
 
 _\*\*Version 2.0.3 for MacOS is still being tested. Expected release this week._ 
 

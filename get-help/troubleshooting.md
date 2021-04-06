@@ -52,7 +52,7 @@ Verify the files located in your SWATPlus installation folder, `SWATPlus/SWATPlu
 * `appsettings.json`
 * `swatplus_vardefs.sqlite`
 
-If any or all of the files above are missing, your installation did not complete successfully. You might try disabling your antivirus and installing again. Otherwise, download the zip file [linked here](https://bitbucket.org/swatplus/swatplus.editor/downloads/troubleshooting-resources-dir-win-2.0.1.zip) and replace the resources folder entirely. Extract the zip to `SWATPlus/SWATPlusEditor`. Note: this is Windows only.
+If any or all of the files above are missing, your installation did not complete successfully. You might try disabling your antivirus and installing again. Otherwise, download the zip file [linked here](https://bitbucket.org/swatplus/swatplus.editor/downloads/troubleshooting-resources-dir-win-2.0.3.zip) and replace the resources folder entirely. Extract the zip to `SWATPlus/SWATPlusEditor`. Note: this is Windows only.
 
 ### Unable to get project information from database
 
