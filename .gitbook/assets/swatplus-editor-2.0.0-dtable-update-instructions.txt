@@ -1,0 +1,60 @@
+SWAT+ Editor uses default landuse management decision tables for summer and winter crops. 
+There was an error in these default tables in versions of the editor prior to 2.0.0. 
+To fix them, follow the steps below:
+
+1. Open your version 1.x project in SWAT+ Editor 2.x and update if prompted. 
+
+2. Click the pencil icon on the left to go to the Edit SWAT+ Inputs section. Click and expand the Decision Tables menu, then click on Land Use Management.
+
+3. Click the import/export button at the bottom. With the export toggle selected, choose a location to save your file and name it lum.dtl.
+
+4. Open this file in a text editor. 
+
+5. Locate the tables that need updating: they will be named something like "pl_hv_corn" or "pl_hv_wwht", where corn and wwht are crops used in your project.
+If you're not sure which tables you're using, look in SWAT+ Editor, from the edit section, click and expand the Land Use Management section and click on Management Schedules.
+Under each schedule listed, you'll see the decision tables used (automatic schedules).
+
+6. Update any summer crop tables similar to the template for corn (pl_hv_corn).
+
+OLD TABLE will look like this:
+
+name                     conds      alts      acts  
+pl_hv_corn                   6         4         3  
+var                        obj   obj_num           lim_var            lim_op     lim_const      alt1      alt2      alt3      alt4  
+soil_water                 hru         0                fc                 *       1.05000         <         <         -         -  
+phu_base0                  hru         0              null                 -       0.15000         >         -         -         -  
+phu_plant                  hru         0           phu_mat                 -       1.15000         -         >         -         -  
+year_rot                   hru         0              null                 -       1.00000         =         =         =         -  
+jday                       hru         0              null                 -     350.00000         -         -         =         -  
+year_rot                   hru         0              null                 -       1.00000         -         -         -         >  
+act_typ                    obj   obj_num              name            option         const        const2                fp  outcome           
+plant                      hru         0        plant_corn              corn       0.00000       1.00000              null  y   n   n   n   
+harvest_kill               hru         0        grain_harv              corn       0.00000       1.00000             grain  n   y   y   n   
+rot_reset                  hru         0           reset_1              null       1.00000       0.00000              null  n   n   n   y
+
+NEW TABLE will look like this:
+
+name                     conds      alts      acts  
+pl_hv_corn                   6         5         3  
+var                        obj   obj_num           lim_var            lim_op     lim_const      alt1      alt2      alt3      alt4      alt5  
+jday                       hru         0              null                 -     350.00000         -         -         =         -         -  
+phu_base0                  hru         0              null                 -       0.15000         >         -         -         -         -  
+phu_base0                  hru         0              null                 -       0.30000         -         -         -         -         >  
+phu_plant                  hru         0           phu_mat                 -       1.15000         -         >         -         -         -  
+soil_water                 hru         0                fc                 *       2.05000         <         <         -         -         -  
+year_rot                   hru         0              null                 -       1.00000         -         -         -         >         -  
+act_typ                    obj   obj_num              name            option         const        const2                fp  outcome           
+harvest_kill               hru         0        grain_harv              corn       0.00000       1.00000             grain  n   y   y   n   n   
+plant                      hru         0        plant_corn              corn       0.00000       1.00000              null  y   n   n   n   y   
+rot_reset                  hru         0           reset_1              null       1.00000       1.00000              null  n   n   n   y   n  
+
+7. Make adjustments to the new table as needed for your crop. Note the above table all the places it says corn and replace with the 4-character code for your crop.
+
+8. REPLACE the old table with your new table in the lum.dtl you exported in step 3.
+
+9. Repeat for winter crops using winter wheat as a template (pl_hv_wwht).
+
+10. Save changes to your lum.dtl and import it back into the editor. Click the import/export button from the Decision Tables -> Land Use Management page. Click the Import toggle and select your file, then click the import button.
+
+11. Re-write input files, re-run the model, and re-analyze output data when ready.
+
