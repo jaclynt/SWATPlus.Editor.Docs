@@ -11,9 +11,9 @@ description: >-
 
 First install the latest LTR version of [QGIS](https://www.qgis.org/) from their downloads page. Please note that if you are using Ubuntu's software manager, it might have an old version, so please use the instructions from the QGIS website. 
 
-Next, install openmpi using brew. From a terminal, run: `brew install openmpi`
+On MacOS only, install openmpi using brew. From a terminal, run: `sudo brew install openmpi`
 
-After QGIS and openmpi are installed, download the Linux or MacOS .tgz file from the [installation page](../installation.md) and extract it. From a terminal go to the extracted folder location and run either `sudo ./installforme.sh` or `./installforall.sh`. If using the install "for all" and the plugin is not showing in QGIS for standard users, please use install "for me" instead.
+After QGIS and openmpi are installed, download the Linux or MacOS .tgz file from the [installation page](../installation.md) and extract it. From a terminal go to the extracted folder location and run either `./installforme.sh`\(note: on MacOS, sudo is required so run `sudo ./installforme.sh` instead\), or `sudo ./installforall.sh`. 
 
 For Linux and MacOS, the optional SSURGO/STATSGO soils and WGN databases should be downloaded from the [SWAT+ SQLite Datasets](../installation.md#swat-sqlite-datasets) section of the installation page, as they are not included in the installers.
 

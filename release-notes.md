@@ -14,7 +14,8 @@ Download the revision notes for the model below.
 
 ### Revision 2.0.6
 
-* Landuse WETW has been added. Existing projects will need to load `plantWithWETW.csv` using the plant pull-down menu on the CreateHRUs form to use WETW. The file is located in your `SWATPlus/Databases` directory.
+* Lake shapefiles can be used to define reservoirs, ponds, wetlands and playas.
+* Landuse WETW has been added. Existing projects will need to load `plantWithWETW.csv` using the plant pull-down menu on the CreateHRUs form. The file is located in your `SWATPlus/Databases` directory.
 
 ## SWAT+ Editor revision 2.0
 

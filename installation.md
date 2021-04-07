@@ -4,11 +4,11 @@
 
 If you plan to use QSWAT+ to set up your watershed, please install QGIS 3 before installing SWAT+. It can be downloaded from the [QGIS download page](https://www.qgis.org/en/site/forusers/download.html), where you should select the **Long term release repository**, and the **64 bit standalone installer**. Version 3.16 is required. Use the default folder `C:\Program Files\QGIS 3.16` as the installation folder. See the [QSWAT+ manual](user/qswat+.md) for further instructions. 
 
-* **MacOS only:** users will need to install openmpi separately.  Run `brew install openmpi` from a terminal.
+* **MacOS only:** users will need to install openmpi separately.  Run `sudo brew install openmpi` from a terminal.
 
 ## 2. SWAT+ 2.0.3 Installer
 
-This release includes **SWAT+ rev. 60.5.2**, **QSWAT+ 2.0.6**, and **SWAT+ Editor 2.0.3**. To install the SWAT+ model and interface components, please use an installer linked below for your operating system. The installer is for 64-bit machines. Administrator privileges are not required.
+This release includes **SWAT+ rev. 60.5.2**, **QSWAT+ 2.0.6**, and **SWAT+ Editor 2.0.3**. To install the SWAT+ model and interface components, please use an installer linked below for your operating system. The installer is for 64-bit machines. Administrator privileges are not required for personal installations \(but Mac requires use of sudo\).
 
 | Operating System | Link | Release Date | Version |
 | :--- | :--- | :--- | :--- |

@@ -24,6 +24,10 @@ For most users, the QSWAT+ plugin should appear automatically in your QGIS toolb
 
 ![](../.gitbook/assets/qsp2-load.png)
 
+### Landuse WETW is not defined
+
+This can happen when opening an existing project. If you are using the standard SWAT+ plant table, use the plant pull-down menu in the Create HRUs form, select Use CSV file, and load `SWATPlus/Databases/plantWithWETW.csv`. If you are using your own plant table you need to copy the last two entries in this csv file \(for wetw and wetm\) into your table.
+
 ### I received an error setting up my watershed in QSWAT+
 
 Make sure you have [installed](../installation.md) the most recent version of QSWAT+ and followed the [manual's installation instructions](../user/qswat+.md) closely.
