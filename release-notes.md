@@ -10,7 +10,9 @@ Download the revision notes for the model below.
 
 {% file src=".gitbook/assets/swatplus-rev-notes-60-60.5.2 \(1\).pdf" %}
 
-## QSWAT+ revision 2.0.6
+## QSWAT+ revision 2.0
+
+### Revision 2.0.6
 
 * Landuse WETW has been added. Existing projects will need to load `plantWithWETW.csv` using the plant pull-down menu on the CreateHRUs form to use WETW. The file is located in your `SWATPlus/Databases` directory.
 
