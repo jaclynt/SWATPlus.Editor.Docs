@@ -18,6 +18,8 @@ This release includes **SWAT+ rev. 60.5.2**, **QSWAT+ 2.0.6**, and **SWAT+ Edito
 
 _\*For Linux and MacOS, the optional SSURGO/STATSGO soils and WGN databases should be downloaded from the_ [_SWAT+ SQLite Datasets_](installation.md#swat-sqlite-datasets) _section below as they are not included in the installers. See detailed installation instructions for Linux and MacOS_ [_here_](get-help/linux-and-macos.md)_._ 
 
+Existing SWAT+ users should be sure to read the [release notes](release-notes.md) thoroughly to see how the software updates affect your projects.
+
 {% page-ref page="release-notes.md" %}
 
 Trouble loading the software after installation? Read through our troubleshooting guide.
