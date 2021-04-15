@@ -1,24 +1,24 @@
 # Installation
 
-## 1. Install QGIS 3
+## 1. Install QGIS 3.16
 
-If you plan to use QSWAT+ to set up your watershed, please install QGIS 3 before installing SWAT+. It can be downloaded from the [QGIS download page](https://www.qgis.org/en/site/forusers/download.html), where you should select the **Long term release repository**, and the **64 bit standalone installer**. Version 3.16 is recommended. Use the default folder `C:\Program Files\QGIS 3.16` as the installation folder. See the [QSWAT+ manual](user/qswat+.md) for further instructions.
+If you plan to use QSWAT+ to set up your watershed, please install QGIS 3 before installing SWAT+. It can be downloaded from the [QGIS download page](https://www.qgis.org/en/site/forusers/download.html), where you should select the **Long term release repository**, and the **64 bit standalone installer**. Version 3.16 is required. Use the default folder `C:\Program Files\QGIS 3.16` as the installation folder. See the [QSWAT+ manual](user/qswat+.md) for further instructions. 
 
-**Please note you must use QGIS version 3, not version 2.** 
+* **MacOS only:** users will need to install openmpi separately.  Run `sudo brew install openmpi` from a terminal.
 
-## 2. SWAT+ 2.0.3 Installer
+## 2. SWAT+ 2.0.4 Installer
 
-This release includes **SWAT+ rev. 60.5.2**, **QSWAT+ 2.0.6**, and **SWAT+ Editor 2.0.3**. To install the SWAT+ model and interface components, please use an installer linked below for your operating system. The installer is for 64-bit machines. Administrator privileges are not required.
+This release includes **SWAT+ rev. 60.5.2**, **QSWAT+ 2.0.6**, and **SWAT+ Editor 2.0.4**. To install the SWAT+ model and interface components, please use an installer linked below for your operating system. The installer is for 64-bit machines. Administrator privileges are not required for personal installations \(but Mac requires use of sudo\).
 
 | Operating System | Link | Release Date | Version |
 | :--- | :--- | :--- | :--- |
-| Windows 64-bit | [Download \(111 MB\)](https://plus.swat.tamu.edu/downloads/swatplustools-installer-2.0.3.zip) | 6 Apr 2021 | 2.0.3 |
-| \*Linux 64-bit | [Download \(194 MB\)](https://plus.swat.tamu.edu/downloads/swatplus-linux-installer-2.0.3.tgz) | 6 Apr 2021 | 2.0.3 |
-| \*MacOS 64-bit | [Download \(262 MB\)](https://plus.swat.tamu.edu/downloads/swatplus-mac-installer-2.0.1.tgz) | 11 Mar 2021 | \*\*2.0.1 |
+| Windows 64-bit | [Download \(111 MB\)](https://plus.swat.tamu.edu/downloads/2.0/2.0.4/swatplus-windows-installer-2.0.4.zip) | 15 Apr 2021 | 2.0.4 |
+| \*Linux 64-bit | [Download \(194 MB\)](https://plus.swat.tamu.edu/downloads/2.0/2.0.4/swatplus-linux-installer-2.0.4.tgz) | 15 Apr 2021 | 2.0.4 |
+| \*MacOS 64-bit | [Download \(139 MB\)](https://plus.swat.tamu.edu/downloads/2.0/2.0.4/swatplus-mac-installer-2.0.4.tgz) | 15 Apr 2021 | 2.0.4 |
 
-_\*For Linux and MacOS, the optional SSURGO/STATSGO soils and WGN databases should be downloaded from the_ [_SWAT+ SQLite Datasets_](installation.md#swat-sqlite-datasets) _section below as they are not included in the installers._
+_\*For Linux and MacOS, the optional SSURGO/STATSGO soils and WGN databases should be downloaded from the_ [_SWAT+ SQLite Datasets_](installation.md#swat-sqlite-datasets) _section below as they are not included in the installers. See detailed installation instructions for Linux and MacOS_ [_here_](get-help/linux-and-macos.md)_._ 
 
-_\*\*Version 2.0.3 for MacOS is still being tested. Expected release this week._ 
+Existing SWAT+ users should be sure to read the [release notes](release-notes.md) thoroughly to see how the software updates affect your projects.
 
 {% page-ref page="release-notes.md" %}
 
@@ -52,4 +52,8 @@ On Windows we recommend using the SWAT+ Tools installer above for installing the
 * [SWAT+ US SSURGO/STATSGO soil data](https://bitbucket.org/swatplus/swatplus.editor/downloads/swatplus_soils.sqlite)
 
 These files should be placed in `SWATPlus/Databases`
+
+## Previous Versions
+
+Previous releases may be accessed from [plus.swat.tamu.edu](https://plus.swat.tamu.edu).
 
